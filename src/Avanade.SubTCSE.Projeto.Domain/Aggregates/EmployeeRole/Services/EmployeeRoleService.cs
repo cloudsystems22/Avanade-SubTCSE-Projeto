@@ -9,7 +9,7 @@ namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Services
 {
     public class EmployeeRoleService : IEmployeeRoleService
     {
-        void IEmployeeRoleService.addEmployeeRole(Entities.EmployeeRole employeeRole)
+        public async Task<Entities.EmployeeRole> addEmployeeRole(Entities.EmployeeRole employeeRole)
         {
             throw new NotImplementedException("Keep calm");
         }
