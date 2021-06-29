@@ -18,7 +18,7 @@ namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.Employee.Validators
                 .WithMessage("{PropertyName} can not be enpty");
 
                 RuleFor(p => p.employeeRole)
-                .SetValidator(new EmployeeValidator());
+                .SetValidator(new EmployeeRoleValidator());
             });
         }
     }
